@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Japonesa</title>
+    <link rel="stylesheet" href="css/estilo_2.css">
+</head>
+
+<body>
+    <header>
+        <h6><a href="index.html" id="back-button">&lt;Voltar</a></h6> 
+        <h1>Cultura Japonesa</h1>
+        <p>Já pensou em ver ou ler as suas obras favoritas em sua língua nativa? Então o nosso curso é para você.</p>
+        <p>Nunca foi tão fácil aprender japonês.</p>
+    </header>
+
+    <section id="sobre-contato">
+        <h2>Sobre/Contato</h2>
+        <form id="contact-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Indique o seu nome completo" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Indique o seu email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Indique o seu telefone" required>
+
+            Como você ficou sabendo do nosso curso?<br>
+            <select id="apresentacao" name="apresentacao" onchange="toggleObservacoes()" required>
+                <option value="">Selecione uma opção</option>
+                <option value="face">Facebook</option>
+                <option value="insta">Instagram</option>
+                <option value="youtube">YouTube</option>
+                <option value="tv">Pela TV</option>
+                <option value="amigos">Amigos ou familiares</option>
+                <option value="outros">Outros</option>
+            </select>
+            <label for="observacoes">Caso tenha respondido "outros" na pergunta acima nos conte como foi:</label>
+            <textarea id="observacoes" name="observacoes" placeholder="Escreva aqui"></textarea>
+
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+header {
+    background-color: #eb5e00;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+header h1 {
+    margin: 0 0 1em 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0 0 1em 0;
+}
+
+#cta-button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: white;
+    background-color: #eb5e00;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#cta-button:hover {
+    background-color: #ff6905;
+}
+
+#sobre-contato button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: white;
+    background-color: #eb5e00;
+    border: none;
+    cursor: pointer;
+}
+
+#sobre-contato button:hover {
+    background-color: #ff6905;
+}
+
